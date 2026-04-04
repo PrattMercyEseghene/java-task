@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Height{
+       public static void main(String[] args){
+       Scanner inputCollector = new Scanner(System.in);
+
+       System.out.printf("Enter your base");
+       int number1= inputCollector.nextInt();
+       System.out.printf("Enter your height");
+       int number2= inputCollector.nextInt();
+       int result = number1 * number2 / 2;
+       System.out.print("The area is " + result);
+}
+}

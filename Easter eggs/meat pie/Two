@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Two{
+       public static void main(String[] args){
+       Scanner inputCollector = new Scanner(System.in);
+
+       System.out.printf("Enter your integer");
+       int number= inputCollector.nextInt();
+       System.out.printf("Enter your integer")
+       int number = inputCollector .nextInt();
+ System.out.printf("Give me two numbers %d%n %d%n", numbers);
+}
