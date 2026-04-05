@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Firstname{
+       public static void main(String[] args){
+       Scanner inputCollector = new Scanner(System.in);
+
+       System.out.print("Enter your firstname");
+       String firstname = inputCollector.nextLine();
+       System.out.print("Enter your lastname");
+       String lastname = inputcollector .nextLine();
+       System.out.println("My name is ",+ +);
+}
+}
