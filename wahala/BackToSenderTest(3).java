@@ -2,7 +2,7 @@ package wahala;
 
 import org.junit.jupiter.api.Assertions;
 
-class BackToSenderTestTest {
+public class BackToSenderTest {
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
@@ -10,10 +10,9 @@ class BackToSenderTestTest {
 
     @org.junit.jupiter.api.Test
     void calculateCommission() {
-        BackToSenderTest backToSenderTest = new BackToSenderTest();
-        int response1 = backToSenderTest.calculateCommission(80);
-        int response2 = backToSenderTest.calculateCommission(25);
-        int response3 = backToSenderTest.calculateCommission(65);
+        int response1 = BackToSender.calculateCommission(80);
+        int response2 = BackToSender.calculateCommission(25);
+        int response3 = BackToSender.calculateCommission(65);
 
 
         Assertions.assertEquals(45000, response1);

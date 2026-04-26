@@ -1,5 +1,7 @@
 package wahala;
 
+import java.util.Scanner;
+
 public class PizzaWahala {
     public static void getPizza(int numberOfPeople, String pizzaType){
         int numberOfSlices = 0;
@@ -34,5 +36,20 @@ public class PizzaWahala {
         System.out.println("Number of boxes of pizza to buy = " + numberOfBoxes + " boxes");
         System.out.println("Number left over slices after serving = " + remainingSlice +" slices");
         System.out.println("Price = " + totalPrice);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("How many people wants to eat the pizza ?");
+        int numberOfPeople = scanner.nextInt();
+
+        System.out.println("Which pizza type do you want? we have: Sapa size,Small Money,Big boys,Odogwu");
+
+        Scanner scanner2 = new Scanner(System.in);
+
+        String pizzaType = scanner2.nextLine();
+
+        getPizza(numberOfPeople, pizzaType);
     }
 }
