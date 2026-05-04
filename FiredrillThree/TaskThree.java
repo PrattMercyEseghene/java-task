@@ -1,5 +1,5 @@
 import java. util.Scanner;
-public class TaskTwo{
+public class TaskOne{
 public static void main(String[]args){
 
 Scanner inputCollector = new Scanner(System.in);
@@ -8,13 +8,13 @@ System.out.println("Enter ten scores");
 
 for(int number= 0; number<list.length; number++){
 
-System.out.println("Enter a score"+ number+": ");
+System.out.print("Enter a score"+ number+": ");
 list[number]=inputCollector.nextInt();
-    System.out.println(list[number]);
+    System.out.print(list[number]);
 }
 
 for(int number= 0; number<list.length; number++){
-     System.out.println(list[number]);
+     System.out.print(list[number] + "  ");
 }
 } 
 }

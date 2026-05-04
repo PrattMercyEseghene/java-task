@@ -1,5 +1,5 @@
 import java. util.Scanner;
-public class TaskTwo{
+public class TaskOne{
 public static void main(String[]args){
 
 Scanner inputCollector = new Scanner(System.in);
