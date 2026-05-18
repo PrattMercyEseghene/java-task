@@ -1,0 +1,7 @@
+write a method that collects 10 integers, stores them in an array , and returns the array.
+write a method that takes an array and returns a new array with elements in reverse order
+write a method that takes an array and returns a new array with all even numbers removed (only odd numbers remain)
+write a method that takes an array and returns a new array with all odd numbers removed (only even numbers remain)
+write a method that takes an array and returns a new array with duplicate values removed(keep first occurence only)
+write a method that takes an array and returns a new array sorted in ascending order
+modify tasksix to sort in descending order.

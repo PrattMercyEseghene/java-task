@@ -24,5 +24,28 @@ double actual= StandardDeviation.mean(array);
 assertEquals(actual , expected);
 
 }
+@Test
+public void TestThatMeanDeviationReturnsRightResultInArray(){
+int[] array = {2,3,4,5,6};
+double expected = 10;
+double actual = StandardDeviation.meanDeviation(array);
+assertEquals(actual,expected);
 }
+
+@Test
+public void TestThatVarianceReturnsRightResultInArray(){
+int[]array={2,3,4,5,6};
+double expected = 2;
+double actual = StandardDeviation.variance(array);
+assertEquals(actual, expected);
+}
+@Test
+public void TestThatStandardDeviationReturnsRightResultInArray(){
+int[]array = {2,3,4,5,6};
+double expected = 1.41;
+double actual= StandardDeviation.standardDeviation(array);
+assertEquals(actual , expected);
+}
+}
+
 
